@@ -11,9 +11,15 @@ color{
     font-weight: 700;
     box-sizing: border-box;
 }
+body{
+    background-color:#e4dad0;
+    padding: 10px;
+    margin: 0;
+}
 
 #header{
-    padding:20px;
+    padding:10px;
+    margin:0;
     width: 100%;
     background: fdfcdc;
     text-align: center;
@@ -37,4 +43,44 @@ color{
 }
 #header nav a:hover{
     opacity: 0.7;
+}
+
+#container{
+    
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:20px;
+    height: 575px ;
+    flex-wrap: no-wrap;
+    max-width: 500px;
+}
+
+#bg-container{
+    width:100%;
+    height: 90%;
+    
+}
+
+#content-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content-container h1{
+    color:#00afb9;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 1.2em;
+    margin-bottom: 30px;
+}
+
+#content-container p{
+    color:#3b3d3d;
+    line-height: 1.8em;
+    font-weight:500;
+    margin:0;
 }
