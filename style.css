@@ -1,121 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700");
 
-color{
-    color:#0081a7,#00afb9,#fdfcdc,#fed9b7,#f07167;
+color {
+  color: #0081a7, #00afb9, #fdfcdc, #fed9b7, #f07167;
 }
 
 /* ----------OVERALL----------------------- */
-*{
-    padding:0;
-    margin:0;
-    font-family:Poppins, sans-serif;
-    font-weight: 700;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  box-sizing: border-box;
 }
-body{
-    background-color:#e4dad0;
-    padding: 10px;
-    margin: 0;
+body {
+  background-color: #e4dad0;
+  padding: 15px;
+  margin: 0;
+  max-width: 100em;
+  min-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-}
+/* #all{
+    display:flex
+    justify-content:center;
+    
+
+} */
 
 /* =================HEAD=============================================== */
 
-#header{
-    padding:10px;
-    margin:0;
-    width: 100%;
-    background: fdfcdc;
-    text-align: center;
-    display:flex;
-    flex-direction:row;
-    justify-content: space-around;
-    align-items: center;
+#header {
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  background: fdfcdc;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-#header #logo img{
-     max-width: 25vmin;
-     height: auto;
+#header #logo img {
+  max-width: 25vmin;
+  height: auto;
 }
 
-#header nav a{
-    font-size: clamp(0.7rem,3vw, 1.3rem);
-    text-decoration: none;
-    padding: 10px;
-    text-align: center;
-    color:#f07167; 
+#header nav a {
+  font-size: clamp(0.7rem, 3vw, 1.3rem);
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: #f07167;
 }
-#header nav a:hover{
-    opacity: 0.7;
+#header nav a:hover {
+  opacity: 0.7;
 }
 
 /* ========================INTRO===================== */
-#intro{
-    /* background-color:rgb(83, 138, 121); */
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding:5px;
-    padding-top: 15px;;
-    height: auto ;
-    flex-wrap: wrap;
-    align-items:center;
-    
-  
+#intro {
+  /* background-color:rgb(83, 138, 121); */
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  padding-top: 15px;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  /* max-width: 700px; ????????*/
 }
 
-#content-intro{
-    /* background-color:brown; */
-    width: 50em;
-    max-width: 700px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#content-intro {
+  /* background-color:brown; */
+  width: 50em;
+  max-width: 700px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#bg-intro{
-    /* background-color: blue; */
-    width:50em;
-    max-width:375px;
-    height: auto;
-    padding:20px;
-    
-
+#bg-intro {
+  /* background-color: blue; */
+  width: 50em;
+  max-width: 375px;
+  height: auto;
+  padding: 20px;
 }
 
-#content-intro h1{
-    color:#00afb9;
-    font-weight: 900;
-    font-size: clamp(3rem,5vw,8rem);
-    line-height: 1.2em;
-    margin-bottom: 15px;
+#content-intro h1 {
+  color: #00afb9;
+  font-weight: 900;
+  font-size: clamp(3rem, 5vw, 8rem);
+  line-height: 1.2em;
+  margin-bottom: 15px;
 }
 
-#content-intro p{
-    color:#3b3d3d;
-    line-height: 1.8em;
-    font-weight:500;
-    text-align: left;
-    margin:0;
+#content-intro p {
+  color: #3b3d3d;
+  line-height: 1.8em;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
 }
 
 /* ===========================EVENTS========================= */
 
-
-
-
-
-
 /* ==========================TEAM============================ */
-
-
-
-
-
-
-
-
 
 /* ========================FOOTER============================ */
